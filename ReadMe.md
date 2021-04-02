@@ -101,3 +101,7 @@ Demonstrates how to invoke a gRPC service using Dapr.
         Console.WriteLine("Completed grpc sayhello");
     }
     ```
+4. Run the client.
+   ```
+   dapr run --app-id DaprClient -- dotnet run
+   ```

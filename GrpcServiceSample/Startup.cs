@@ -11,7 +11,6 @@ namespace GrpcServiceSample
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddGrpc();
-            services.AddDaprClient();
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {

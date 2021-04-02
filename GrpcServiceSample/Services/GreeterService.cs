@@ -15,7 +15,7 @@ namespace GrpcServiceSample
     {
         private readonly ILogger<GreeterService> _logger;
 
-        public GreeterService(DaprClient daprClient, ILogger<GreeterService> logger)
+        public GreeterService(ILogger<GreeterService> logger)
         {
             _logger = logger;
         }
